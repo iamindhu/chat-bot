@@ -1,0 +1,123 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Yo", "Whats up"],
+         "responses": ["Hello, thanks for asking", "Hi, good to see you", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "ttyl"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How could you help me?", "What can you do?", "What help will you provide?", "How you can be helpful?", "What support is offered?", "What do you do?"],
+         "responses": ["I can guide you through IET Club. May I know what you want to know", "I offer details about IET. Let me know what you want to learn about"],
+         "context": [""]
+        },
+        {"tag": "projects_cipher",
+         "patterns": ["What projects are done in cipher sig?", "List few projects of cipher", "Name some projects completed by cipher sig", "Show the projects done by cipher members"],
+         "responses": ["Check this for projects in cipher sig - https://iet-nitk.github.io/sig/cipher/"],
+         "context": [""]
+        },
+        {"tag": "projects_rovisp",
+         "patterns": ["What projects are done in rovisp sig?", "List few projects of rovisp", "Name some projects completed by rovisp sig", "Show the projects done by rovisp members"],
+         "responses": ["Check this for projects in rovisp sig - https://iet-nitk.github.io/sig/rovisp/"],
+         "context": [""]
+        },
+        {"tag": "projects_torsion",
+         "patterns": ["What projects are done in torsion sig?", "List few projects of rovisp", "Name some projects completed by torsion sig", "Show the projects done by torsion members", "What are the projects done in torsion?" ],
+         "responses": ["Check this for projects in torsion sig - https://iet-nitk.github.io/sig/torsion/"],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["Tell me about the club IET", "What is the club about?", "More about IET NITK","What is IET in NITK?"],
+         "responses": ["IET NITK is one of the technical clubs in NITK. For more details, check this out - https://iet-nitk.github.io/about/"],
+         "context": [""]
+        },
+        {"tag": "members",
+         "patterns": ["Members of IET club", "IET members list","More about members of IET NITK"],
+         "responses": ["Check this out - https://iet-nitk.github.io/about/"],
+         "context": [""]
+        },
+        {"tag": "sig",
+         "patterns": ["What are sigs in IET club?", "IET sigs"],
+         "responses": ["The sigs present in the club are: Cipher, Rovisp, Torsion, Inkheart, Medium"],
+         "context": [""]
+        },
+        {"tag": "cipher",
+         "patterns": ["Tell me about cipher sig", "What happens in cipher sig?"],
+         "responses": ["It mainly include computers and various technologies. However it is open for all branches"],
+         "context": [""]
+        },
+        {"tag": "rovisp",
+         "patterns": ["Tell me about rovisp sig", "What happens in rovisp sig?"],
+         "responses": ["It mainly include electronics and technological applications. However it is open for all branches"],
+         "context": [""]
+        },
+        {"tag": "torsion",
+         "patterns": ["Tell me about torsion sig", "What happens in torsion sig?"],
+         "responses": ["It mainly include mechanics and applications. However it is open for all branches"],
+         "context": [""]
+        },
+        {"tag": "inkheart",
+         "patterns": ["Tell me about inkheart sig", "What happens in inkheart sig?"],
+         "responses": ["Inkheart is our new Lit&Phil SIG for people who are passionate about literature, music etc \n Follow us on Instagram for some fresh content:https://www.instagram.com/inkheart_ietnitk/"],
+         "context": [""]
+        },
+        {"tag": "medium",
+         "patterns": ["Tell me about medium sig", "What happens in medium sig?"],
+         "responses": ["This is a recently introduced SIG. Medium SIG is dedicated to people interested in Media and Marketing. This SIG is still under development"],
+         "context": [""]
+        },
+        {"tag": "year",
+         "patterns": ["I am in 1st year, can I apply for club", "Is the club open for 3rd years?","Studying in 2nd year can I apply for club?"],
+         "responses": ["The club recruits candidates from 2nd and 3rd years. Its open for all branches"],
+         "context": [""]
+        },
+        {"tag": "moresigs",
+         "patterns": ["Can I apply for more than 1 sig?", "How many sigs can I appear in?","Am I allowed to apply for 2 or 3 sigs?"],
+         "responses": ["Candidates can apply for more than one sig. However interviews for them are conducted separately."],
+         "context": [""]
+        },
+        {"tag": "recruitmemt",
+         "patterns": ["How to get recruited into IET club?", "IET club recruitment", "Details about recruitment into IET club","How do I join the club? "],
+         "responses": ["The recruitment is held generally during mid-august. Spam regarding the same will be done during the recruitment period."],
+         "context": [""]
+        },
+        {"tag": "contact",
+         "patterns": ["Whom should I contact?", "Give contact information of any member", "Provide someones contact details","How do I contact the IET NITK?"],
+         "responses": ["Check it out - https://iet-nitk.github.io/contact/"],
+         "context": [""]
+        },
+        {"tag": "blogs",
+         "patterns": ["Recent blogs by members", "Show me some blogs of IET"],
+         "responses": ["Check this out for blogs written by our members - https://iet-nitk.github.io/blog/"],
+         "context": [""]
+        },
+        {"tag": "handles",
+         "patterns": ["Social media handles of IET NITK","IET social media accounts"],
+         "responses": ["LinkedIn : https://www.linkedin.com/company/ietnitk/,\nInstagram : https://www.instagram.com/ietnitk/ ,\nFacebook : https://www.facebook.com/ietnitk"],
+         "context": [""]
+        },
+        {"tag": "events",
+         "patterns": ["Recent events conducted by the club", "Show me some events of IET"],
+         "responses": ["Events conducted so far for this academnic year (20-21) are \n1. Esacape Room by Prathyush Giri \n2. Webinar om CDF by Research fellow from NITK \n Visit our Instagram page for more details"],
+         "context": [""]
+        },
+        {"tag": "smp",
+         "patterns": ["More about Summer Mentorship Programs", "What are the smps conducted by the club?", "Name any smp conducted in iet"],
+         "responses": ["Summer Mentorship Programs are counducted in the months of April-May, some of them are: \n1. Android App Development \n2. DSA - Competitive Programming \n3.MATLAB \n4.Digital System Design \n5.Machine Learning with \n6.Machine Learning with Python and many more \n Visit our Instagram page for more information"],
+         "context": [""]
+        }
+]
+}
